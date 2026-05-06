@@ -1,0 +1,43 @@
+body{
+
+    background-color: green;
+    color: blue;
+}
+
+
+.infos{
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.buttons{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.inputs{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 10px;
+}
+
+.jobs{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
