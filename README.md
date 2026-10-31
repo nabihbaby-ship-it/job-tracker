@@ -1,16 +1,80 @@
-# React + Vite
+# Job Tracker – Chrome Extension
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack job tracking application with a Chrome Extension that allows users to extract and save job listings directly from LinkedIn and other supported job platforms.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Job Tracker helps users organize and manage their job applications in one place.
 
-## React Compiler
+Instead of manually entering job details, users can use the browser extension to automatically extract relevant information from job listings and save them directly to their personal dashboard.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+### Job Tracker
+- User registration and login
+- Manage job applications in one dashboard
+- Save job listings
+- View saved jobs
+- Delete job listings
+- Track application statuses
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Chrome Extension
+- Extract job information directly from job listing pages
+- Automatically retrieve job titles
+- Extract company names
+- Save job listings with one click
+- Send extracted job data to the Job Tracker
+- Support for LinkedIn and other supported job platforms
+
+## How It Works
+
+1. Open a job listing on LinkedIn or another supported platform.
+2. Open the Chrome Extension.
+3. The extension extracts relevant job information.
+4. Click the save button.
+5. The job is automatically added to your Job Tracker dashboard.
+
+## Installation
+
+1. Clone or download the repository.
+2. Extract the project files.
+3. Open Google Chrome.
+4. Navigate to `chrome://extensions`.
+5. Enable Developer Mode.
+6. Click **Load unpacked**.
+7. Select the extension folder.
+
+## Tech Stack
+
+### Frontend
+- Add your frontend technologies here.
+
+### Backend
+- Add your backend technologies here.
+
+### Database
+- Add your database here.
+
+### Browser Extension
+- Chrome Extension API
+- Content Scripts
+- Message Passing
+- Chrome Storage API
+
+## Project Structure
+
+```text
+frontend/
+backend/
+extension/
+```
+
+## Project Goals
+
+The goal of this project was to simplify the job search process by building a centralized job tracking platform combined with a browser extension.
+
+This project provided hands-on experience with full-stack development, browser extension development, API integration, data extraction, and communication between frontend, backend, and browser extensions.
+
+## Author
+
+Youssouf
